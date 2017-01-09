@@ -1,16 +1,25 @@
-html{
-  background: black;
-}
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background: #f2f2f2;
+	background-color: black;
 	font-size: 1em;
 	line-height: 1.5em;
 }
-h1{
+
+header{
+
+  border: 0px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.h1{
+  display: inline-block;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
   width: 60%;
   color: white;
   text-shadow: 0px 2px #02010a;
@@ -20,7 +29,7 @@ h1{
   background-color: #5b7989;
   border-radius: 10px;
 	color: white;
-	height: 100px;
+	height: 80px;
   width: 95%;
 }
 #main-header a {
@@ -31,6 +40,10 @@ h1{
  * Navegación
  */
  nav {
+   margin: 0px;
+   border: 0px;
+   padding: 0px;
+   text-align: center;
  	float: right;
  }
  	nav ul {
@@ -51,29 +64,7 @@ h1{
  				text-decoration: none;
  			}
 
-/*
- * Navegación
- */
- nav {
- 	float: right;
- }
- 	nav ul {
- 		margin: 0;
- 		padding: 0;
- 		list-style: none;
- 		padding-right: 20px;
- 	}
 
- 		nav ul li {
- 			display: inline-block;
- 			line-height: 80px;
- 		}
-
- 			nav ul li a {
- 				display: block;
- 				padding: 0 10px;
- 				text-decoration: none;
- 			}
 /*
  * pie de pagina
  */
