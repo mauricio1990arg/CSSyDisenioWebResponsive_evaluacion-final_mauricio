@@ -1,18 +1,32 @@
+html{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
 
 body {
-	margin: 0;
-	padding: 0;
+		font-family: 'dancing script';
+	margin: 0px;
+	padding: 0px;
 	color: #666;
 	background-color: black;
 	font-size: 1em;
 	line-height: 1.5em;
 }
 
-header{
+/* HEADER */
 
-  border: 0px;
+header{
+	border: 0px;
   padding: 0px;
   margin: 0 auto;
+}
+
+footer ul li a{
+	color: black;
+}
+
+footer ul{
+	color: black;
 }
 
 .h1{
@@ -27,24 +41,19 @@ header{
 
 #main-header {
   background-color: #5b7989;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 	color: white;
-	height: 80px;
-  width: 95%;
-}
-#main-header a {
-	color: white;
+	height: 25%;
+  width: 80%;
 }
 
-/*
- * Navegación
- */
+/* NAV */
  nav {
-   margin: 0px;
-   border: 0px;
-   padding: 0px;
-   text-align: center;
- 	float: right;
+   	margin: 0px;
+   	border: 0px;
+   	padding: 0px;
+   	text-align: center;
+ 		float: right;
  }
  	nav ul {
  		margin: 0;
@@ -64,62 +73,61 @@ header{
  				text-decoration: none;
  			}
 
+/* 	CONTENIDO PRINCIPAL*/
 
-/*
- * pie de pagina
- */
+#contenidoprincipal{
+	background-color:  #82c3a6;
+	display: flex;
+	flex-flow: row wrap;
+	width: 80%;
+	border-top: 0;
+	margin: auto;
+	padding: 0;
+	border: 0;
+}
+
+#paisaje{
+	margin: 0	auto;
+	padding: 1%;
+	width: 30%;
+	height: 30%;
+	}
+
+
+
+/* FOOTER*/
 
 footer{
-  width: 100%;
-  background-color: #C6d5c5;
-  border-radius: 10px;
-}
-
-.enlaces{
-  width: 30%;
-}
-
-.contenedorgeneral{
-  margin: 2px solid black;
-  width: 100%;
-}
-
-.imagencentral.img{
-  margin: 0 auto;
-  width: 100%;
-}
-
-.secundariaizquierda{
-  width: 50%;
-}
-
-.secundariaderecha{
-  width: 50%;
+	font-size: 1em;
+	width: 80%;
+  margin: 0px auto;
+  border: 2px;
+  padding: 0px;
+	background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+	display: flex;
+  flex-flow: row wrap;
 }
 
 .face{
-  width: 2.5%;
-  height: 2.5%;
+	width: 8%;
+  height: 8%;
 }
 
 .inst{
-  width: 2.5%;
-  height: 2.5%;
-}
-.twi{
-  width: 2.5%;
-  height: 2.5%;
+  width: 8%;
+  height: 8%;
 }
 
-.contacto{
-  width: 25%;
+.twi{
+  width: 8%;
+  height: 8%;
 }
-.terminos{
-  width: 25%;
-}
-.RedesSociales{
-  width: 25%;
-}
-.derechos{
-  width: 25%;
+
+.foter{
+	width: 20%;
+	margin: 0 auto;
+	border: 0;
+  padding-left: 6%;
+	float: left;
 }

@@ -1,4 +1,9 @@
+html{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
 body {
+	font-family: 'dancing script';
 	margin: 0px;
 	padding: 0px;
 	color: #666;
@@ -8,11 +13,20 @@ body {
 }
 
 /* HEADER */
-
+nav ul li a{
+	color:white;
+}
 header{
-  border: 0px;
+	border: 0px;
   padding: 0px;
   margin: 0 auto;
+}
+
+footer ul li a{
+	color: black;
+}
+footer ul{
+	color: black;
 }
 
 .h1{
@@ -30,7 +44,7 @@ header{
   border-radius: 10px 10px 0px 0px;
 	color: white;
 	height: 25%;
-  width: 90%;
+  width: 80%;
 }
 
 /* NAV */
@@ -65,7 +79,7 @@ header{
   margin: 0px auto;
   border: 0px;
   padding: 0px;
-  width: 90%;
+  width: 80%;
 
 }
 
@@ -74,27 +88,27 @@ header{
   margin: 0px auto;
   border: 0px;
   padding: 0px;
-  width: 90%;
+  width: 80%;
   text-align: center;
 }
 .fotocentral{
   margin: 0px;
   border: 0px;
   padding: 1%;
-  width: 90%;
+  width: 80%;
 }
 
 .paisa{
   margin: 0px;
   border: 0px;
   padding: 1%;
-  width: 43%;
+  width: 38%;
 }
 .retra{
   margin: 0px;
   border: 0px;
   padding: 1%;
-  width: 43%;
+  width: 38%;
 }
 
 .imagensecundaria{
@@ -102,9 +116,9 @@ header{
 	display: block;
   background-color: #d5c75f;
   margin: 0px auto;
-  border: 0px;
+  border: 1px;
   padding: 0px;
-  width: 90%;
+  width: 80%;
 }
 
 
@@ -113,7 +127,7 @@ header{
 
 footer{
 	font-size: 1em;
-	width: 90%;
+	width: 80%;
   margin: 0px auto;
   border: 2px;
   padding: 0px;
@@ -142,6 +156,6 @@ footer{
 	width: 20%;
 	margin: 0 auto;
 	border: 0;
-  padding: 0;
+  padding-left: 6%;
 	float: left;
 }
