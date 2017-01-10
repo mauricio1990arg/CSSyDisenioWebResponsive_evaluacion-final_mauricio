@@ -1,0 +1,97 @@
+html{
+  background-color: black;
+  font-family: 'Dancing Script',cursive;
+}
+
+header{
+  background: #5b7989 ;
+  width: 80%;
+  border: 0;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+
+#paisajes{
+text-decoration: none;
+}
+
+#paisajes:visited{
+  text-decoration: underline;
+}
+
+
+.contenedor{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+}
+
+.hader1{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+.header2{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.hader2 p{
+  float: right;
+  margin-left:0%;
+  margin-top: 7%;
+  font-size: 1.5em;
+}
+
+a{
+  color: white;
+  margin-right: 20px;
+}
+
+
+
+/********************************************FOOTER*******************************************/
+
+footer{
+  width: 80%;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0 auto;
+}
+
+div[class^='caja']{
+  display:inline-block;
+  width: 20%;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.caja2{
+  padding-top: 10px;
+}
+.caja3 img{
+  width: 10%;
+}
+.caja4 img{
+  width: 10%;
+}
+.caja1 h1,label{
+  margin-bottom: 25px;
+}
+.caja2 h1,label{
+  margin-bottom: 25px;
+}
+.caja3 h1,label{
+  margin-bottom: 10px;
+}
+.caja4 h1,label{
+  margin-bottom: 20px;
+}
