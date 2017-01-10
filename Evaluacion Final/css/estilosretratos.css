@@ -1,7 +1,9 @@
 html{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
+
 }
+
 body {
 	font-family: 'dancing script';
 	margin: 0px;
@@ -13,9 +15,7 @@ body {
 }
 
 /* HEADER */
-nav ul li a{
-	color:white;
-}
+
 header{
 	border: 0px;
   padding: 0px;
@@ -25,6 +25,7 @@ header{
 footer ul li a{
 	color: black;
 }
+
 footer ul{
 	color: black;
 }
@@ -72,7 +73,6 @@ footer ul{
  				padding: 0 10px;
  				text-decoration: none;
  			}
-
 /* CONTENIDO GENERAL*/
 
 #contenidoprincipal{

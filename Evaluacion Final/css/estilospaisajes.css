@@ -2,8 +2,9 @@ html{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 }
+
 body {
-	font-family: 'dancing script';
+		font-family: 'dancing script';
 	margin: 0px;
 	padding: 0px;
 	color: #666;
@@ -13,9 +14,7 @@ body {
 }
 
 /* HEADER */
-nav ul li a{
-	color:white;
-}
+
 header{
 	border: 0px;
   padding: 0px;
@@ -25,6 +24,7 @@ header{
 footer ul li a{
 	color: black;
 }
+
 footer ul{
 	color: black;
 }
@@ -72,15 +72,16 @@ footer ul{
  				padding: 0 10px;
  				text-decoration: none;
  			}
-/* 	CONTENIDO PRINCIPAL*/
 
+/* 	CONTENIDO PRINCIPAL*/
 
 #contenidoprincipal{
 	background-color:  #82c3a6;
 	display: flex;
-  flex-flow: row wrap;
+	flex-flow: row wrap;
 	width: 80%;
-	margin: 0 auto;
+	border-top: 0;
+	margin: auto;
 	padding: 0;
 	border: 0;
 }
@@ -91,6 +92,8 @@ footer ul{
 	width: 30%;
 	height: 30%;
 	}
+
+
 
 /* FOOTER*/
 
