@@ -1,4 +1,5 @@
 html{
+  margin: 0.5%;
   background-color: black;
   font-family: 'Dancing Script',cursive;
 }
@@ -85,11 +86,15 @@ body{
 }
 
 div [class^='box']{
-  min-height: 80px;
   padding: 1%;
-  flex: 2 3 100px;
+  flex: 2 3 ;
+  width: 35%;
+  margin: 0 auto;
 }
 
+img[id^='imagen']{
+  width: 100%;
+}
 img{
   box-shadow: 2px 2px 2px #02010a;
 }
@@ -135,7 +140,7 @@ div[class^='caja']{
 /******************************************************************************/
 
 @media all and (max-width: 900px) {
-	.contenedor {
+  .contenedor {
 		width: 100%;
     text-align: center;
 		order: 1;
@@ -147,8 +152,15 @@ div[class^='caja']{
   }
 
 .contenedorarriba,.contenedorabajo,.contenedor{
-  display: flex;
-  flex-flow: wrap;
+  display: inline-block;
+  div [class^='box']{
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div[id='imagen']{
+    width: 100%;
+  }
 }
 
 footer{
@@ -159,3 +171,20 @@ div[class^='caja']{
 }
 
 }
+
+/******************************************************************************/
+header{
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  0% {
+  margin-top: 150%;
+  }
+  60% {
+  margin-top: -5%;
+  }
+  100% {
+  margin-top: 0%;
+  }
+  }
