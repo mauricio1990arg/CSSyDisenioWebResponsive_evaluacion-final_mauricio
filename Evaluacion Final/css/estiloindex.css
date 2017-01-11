@@ -72,10 +72,19 @@ body{
     display: flex;
     flex-flow: row;
 }
+.contenedorprincipal{
+  display: inline;
+}
+
+div[class^='secundario']{
+  width: 40%;
+  margin: 0 auto;
+}
 
 .contenedorsecundario{
+  display: flex;
+  flex-flow: row;
   text-align: center;
-	display: block;
   background-color: #d5c75f;
   margin: 0px auto;
   border: 1px;
@@ -85,14 +94,24 @@ body{
 
 #retrato{
   margin: 0 auto;
-  width: 38%;
+  width: 100%;
   padding: 1%;
+  transition: all 1s ease;
+}
+#retrato:hover{
+  transform: rotate(10deg);
+  transition: transition: all 2s ease;
 }
 
 #paisaje{
   margin: 0 auto;
-  width: 38%;
+  width: 100%;
   padding: 1%;
+  transition: all 1s ease;
+}
+#paisaje:hover{
+  transform: translate(5px,-20px);
+  transition: transition: all 2s ease;
 }
 
 /********************************************FOOTER*******************************************/
@@ -145,13 +164,18 @@ div[class^='caja']{
 
   }
 
-.contenedorcentral,.contenedorsecundario,.contenedor{
+.contenedorcentral,.contenedor{
+  display: inline-block;;
+}
+
+.contenedorsecundario{
   display: inline-block;
-  div [class^='box']{
-    padding: 1%;
-    width: 100%;
-    margin: 0 auto;
-  }
+}
+
+div[id^='secundario']{
+  width: 90%;
+  margin: 0 auto;
+  padding: 1%;
 }
 
 footer{

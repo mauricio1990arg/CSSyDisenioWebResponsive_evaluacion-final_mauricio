@@ -138,6 +138,16 @@ div[class^='caja']{
 }
 
 /******************************************************************************/
+#imagen1{
+  filter: blur(10px);
+}
+#imagen2,#imagen4,#imagen6{
+  filter: grayscale(100%);
+}
+#imagen3{
+  filter: sepia(90%);
+}
+/******************************************************************************/
 
 @media all and (max-width: 900px) {
   .contenedor {
@@ -153,14 +163,13 @@ div[class^='caja']{
 
 .contenedorarriba,.contenedorabajo,.contenedor{
   display: inline-block;
-  div [class^='box']{
-    padding: 1%;
-    width: 100%;
-    margin: 0 auto;
-  }
-  div[id='imagen']{
-    width: 100%;
-  }
+}
+
+div [class^='box']{
+  width: 97%;
+  display: inline-block;
+  padding: 1%;
+  margin: 0 auto;
 }
 
 footer{
