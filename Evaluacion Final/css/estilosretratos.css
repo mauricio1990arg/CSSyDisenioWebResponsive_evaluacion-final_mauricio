@@ -84,9 +84,12 @@ body{
 }
 
 div [class^='box']{
-  min-height: 80px;
-  padding: 10px 40px;
-  flex: 2 3 100px;
+  padding: 3%;
+  flex: 2 3 30%;
+}
+img [class^='retrato']{
+  width: 80%;
+  height: 80%;
 }
 
 img{
@@ -130,4 +133,32 @@ div[class^='caja']{
 }
 .caja4 h1,label{
   margin-bottom: 20px;
+}
+
+/***************************************************************************/
+@media all and (max-width: 900px) {
+  .contenedor {
+		width: 100%;
+    text-align: center;
+		order: 1;
+	}
+  .hader2 p{
+    margin-left: 10%;
+    text-align: center;
+
+  }
+
+.contenedorarriba,.contenedorabajo,.contenedor{
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 auto;
+}
+
+footer{
+  height: auto;
+}
+div[class^='caja']{
+  display:inline;
+}
+
 }

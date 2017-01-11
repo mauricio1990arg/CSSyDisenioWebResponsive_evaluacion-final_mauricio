@@ -86,7 +86,7 @@ body{
 
 div [class^='box']{
   min-height: 80px;
-  padding: 10px 40px;
+  padding: 1%;
   flex: 2 3 100px;
 }
 
@@ -130,4 +130,32 @@ div[class^='caja']{
 }
 .caja4 h1,label{
   margin-bottom: 20px;
+}
+
+/******************************************************************************/
+
+@media all and (max-width: 900px) {
+	.contenedor {
+		width: 100%;
+    text-align: center;
+		order: 1;
+	}
+  .hader2 p{
+    margin-left: 10%;
+    text-align: center;
+
+  }
+
+.contenedorarriba,.contenedorabajo,.contenedor{
+  display: flex;
+  flex-flow: wrap;
+}
+
+footer{
+  height: auto;
+}
+div[class^='caja']{
+  display:inline;
+}
+
 }

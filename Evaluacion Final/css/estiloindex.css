@@ -82,18 +82,16 @@ body{
   width: 100%;
 }
 
-.retrato{
+#retrato{
   margin: 0 auto;
   width: 38%;
   padding: 1%;
-  border-radius: 10px;
 }
 
-.paisaje{
+#paisaje{
   margin: 0 auto;
   width: 38%;
   padding: 1%;
-  border-radius: 10px;
 }
 
 /********************************************FOOTER*******************************************/
@@ -132,4 +130,32 @@ div[class^='caja']{
 }
 .caja4 h1,label{
   margin-bottom: 20px;
+}
+
+/****************************************************************************/
+
+@media all and (max-width: 900px) {
+	.contenedor {
+		width: 100%;
+    text-align: center;
+		order: 1;
+	}
+  .hader2 p{
+    margin-left: 10%;
+    text-align: center;
+
+  }
+
+.contenedorsecundario,,.contenedorgeneral{
+  display: flex;
+  flex-flow: wrap;
+}
+
+footer{
+  height: auto;
+}
+div[class^='caja']{
+  display:inline;
+}
+
 }
